@@ -1,0 +1,215 @@
+/* Existing styles */
+.home-section {
+  position: relative;
+  overflow: hidden; /* hides bubbles going off-screen */
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Bubble container */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #6343a3cc, #f856ddcc,#ec964fcc);
+  animation: floatBubble linear infinite;
+  pointer-events: none; /* let clicks pass through */
+}
+
+/* Different bubble sizes & delays */
+.bubble:nth-child(1) { width: 80px; height: 80px; left: 10%; animation-duration: 20s; animation-delay: 0s; }
+.bubble:nth-child(2) { width: 120px; height: 120px; left: 30%; animation-duration: 25s; animation-delay: 3s; }
+.bubble:nth-child(3) { width: 60px; height: 60px; left: 50%; animation-duration: 18s; animation-delay: 5s; }
+.bubble:nth-child(4) { width: 150px; height: 150px; left: 70%; animation-duration: 30s; animation-delay: 2s; }
+.bubble:nth-child(5) { width: 90px; height: 90px; left: 85%; animation-duration: 22s; animation-delay: 4s; }
+
+@keyframes floatBubble {
+  0% {
+    transform: translateY(100vh) translateX(0) scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateY(75vh) translateX(30px) scale(1.1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(50vh) translateX(-30px) scale(1.2);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translateY(25vh) translateX(20px) scale(1.1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-200px) translateX(0) scale(1);
+    opacity: 0;
+  }
+}
+
+.home-section {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.home-container {
+  max-width: 1200px;
+  background-color: black !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.home-section .social-icons {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 10;
+}
+
+.home-section .social-icons a {
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.home-section .social-icons a svg {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.home-section .social-icons a:hover {
+  color: #B18AFF;
+}
+
+.home-section .social-icons a:hover svg {
+  fill: #B18AFF;
+}
+
+/* Main content area */
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 5rem; 
+}
+
+.home-text {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.home-text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgb(241, 241, 241);
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.home-text h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #B18AFF;
+}
+
+.home-text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* Say Hello button */
+.say-hello-btn {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6343a3cc, #f856ddcc,#ec964fcc);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px #6343a3cc,
+              0px 5px 15px #f856ddcc,
+              0px 5px 15px #ec964fcc
+}
+
+.say-hello-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+
+}
+
+
+/* Image wrapper with orange blob shape */
+.home-image-wrapper {
+  flex: 1 1 320px;
+  max-width: 340px;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(135deg,#B18AFF, #6343a3cc, #f856ddcc);
+  border-radius: 50% 40% 50% 40% / 70% 50% 80% 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.home-image-wrapper img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home-image-wrapper:hover {
+  box-shadow: 0 18px 50px rgba(124, 59, 228, 0.466);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 2rem 1rem;
+  }
+  .home-section .social-icons {
+    display: none;
+  }
+  .home-content {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .home-image-wrapper {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  .home-text {
+    max-width: 100%;
+    text-align: center;
+  }
+  .home-text h1 {
+    justify-content: center;
+  }
+}
+
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 8px #ff355e, 0 0 20px #ff6f91;
+  }
+  to {
+    text-shadow: 0 0 20px #ff6f91, 0 0 40px #ff355e;
+  }
+}
