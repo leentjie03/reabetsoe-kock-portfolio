@@ -36,7 +36,7 @@ export default function Projects() {
       tech: ['JavaScript', 'HTML', 'CSS'],
       liveDemo: 'https://my-calculator-five-snowy.vercel.app/',
       sourceCode: import.meta.env.VITE_CALENDAR_REPO_URL || "#",
-      image: '/images/calculator.png'
+      image: '/images/Calculator.png'
     },
     {
       title: 'Movie Search App',
@@ -48,7 +48,7 @@ export default function Projects() {
       tech: ['React', 'JavaScript', 'CSS'],
       liveDemo: 'https://movie-search-app-93ao.vercel.app/',
       sourceCode: import.meta.env.VITE_MOVIE_SEARCH_REPO_URL|| "#",
-      image: '/images/movie_search.jpg'
+      image: '/images/Movie_Search.jpg'
     }
   ];
 
