@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className="home-image-wrapper">
-          <img src="public/images/reabetsoe.jpg" alt="Reabetsoe Kock" /> 
+          <img src="/images/reabetsoe.jpg" alt="Reabetsoe Kock" /> 
         </div>
       </div>
     </section>
