@@ -5,7 +5,17 @@ Welcome to my personal portfolio website — a showcase of my work, skills, and 
 [Live Site](https://rea-portfolio.vercel.app/) • [Contact Me](mailto:ieleenkock@gmail.com)
 
 ---
+<p align="center">
+  <img src=""C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg"" />
+</p>
 
+---
+
+## 🛠 Tech Stack  
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
 
 
 ## 📬 Contact
