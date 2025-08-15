@@ -1,7 +1,7 @@
 ## 🖼 Screenshots
 Here’s a sneak peek at some of my work:
 <p align="center">
-  <img src=["https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg" />
+  <img src="https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg" />
 </p>
 
 ---
