@@ -4,36 +4,61 @@ Welcome to my personal portfolio website — a showcase of my work, skills, and 
 
 [Live Site](https://rea-portfolio.vercel.app/) • [Contact Me](mailto:ieleenkock@gmail.com)
 
+## 🧰 Tech Stack
+**Frontend:**  React, JavaScript (ES6+),
+**Tools:** Git, VS Code, 
+
 ---
+
+## 🖼 Screenshots
+Here’s a sneak peek at some of my work:
 <p align="center">
-  <img src=""C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg"" />
+  <img src="C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg" />
 </p>
 
 ---
 
-## 🛠 Tech Stack  
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
-
-
-## 📬 Contact
-
-Feel free to reach out if you'd like to collaborate or just say hello:
-
+## 📫 Get in Touch
 - 📧 Email: [youremail@example.com](mailto:ieleenkock@gmail.com.com)
 - 💼 LinkedIn: [linkedin.com/in/reabetsoe-kock](https://linkedin.com/in/reabetsoe-kock)
 - 🐦 Discord: [@leetjie0028]([https://twitter.com/yourhandle](https://discord.com/users/1245530595631828992))
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+
+###
+npm install
+
+
+
+⭐ **Fun fact:** I believe debugging is just detective work — but with more coffee.
 
 ---
 
-## 🏁 Getting Started (If open-source)
 
-If you’d like to run this portfolio locally:
 
-```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
-npm install
-npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
