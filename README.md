@@ -1,7 +1,7 @@
 ## 🖼 Screenshots
 Here’s a sneak peek at some of my work:
 <p align="center">
-  <img src="[C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg](https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg)" />
+  <img src=["[C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg](https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg)](https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg)" />
 </p>
 
 ---
