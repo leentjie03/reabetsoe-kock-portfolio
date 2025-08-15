@@ -5,6 +5,9 @@
   background: black;
   color: white;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Bubble container */
@@ -57,6 +60,7 @@
   background-color: black !important;
   margin: 0 auto;
   width: 100%;
+  padding: 2rem;
 }
 
 
@@ -113,6 +117,8 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
+  font-weight: 300;
+  font-family: fantasy;
 }
 
 .home-text h3 {

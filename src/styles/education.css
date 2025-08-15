@@ -12,6 +12,8 @@
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
+  font-weight: 300;
+  font-family: fantasy;
 }
 
  .education-divider {

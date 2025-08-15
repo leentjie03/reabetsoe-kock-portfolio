@@ -21,7 +21,9 @@
 .contact-header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color:white
+  color:white;
+  font-weight: 300;
+  font-family: fantasy;
 }
 
 .contact-divider {
@@ -38,6 +40,8 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 300;
+  font-family: fantasy;
 }
 
 .contact-content {
@@ -196,7 +200,7 @@ button {
 
 @media (max-width: 768px) {
   .contact-content {
-    flex-direction: column;
+    flex-direction: column
   }
   
   .form-row {
