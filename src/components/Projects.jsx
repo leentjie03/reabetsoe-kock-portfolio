@@ -35,7 +35,7 @@ export default function Projects() {
         'User-friendly interface with clear display'
       ],
       tech: ['JavaScript', 'HTML', 'CSS'],
-      liveDemo: '#',
+      liveDemo: 'https://my-calculator-five-snowy.vercel.app/',
       sourceCode: import.meta.env.VITE_CALENDAR_REPO_URL || "#",
       image: 'public/images/calculator.png'
     }
@@ -70,9 +70,9 @@ export default function Projects() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-buttons">
-                  <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="btn live-demo-btn">
+                   {/* <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="btn live-demo-btn">
                     Live Demo
-                  </a>
+                  </a>  */}
                   <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="btn source-code-btn">
                     Source Code
                   </a>

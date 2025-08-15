@@ -1,0 +1,13 @@
+# Protect CV file from direct access
+<Files "Reabetsoe_Kock_CV.pdf">
+    # Allow access only from your domain
+    SetEnvIf Referer "^https?://your-domain\.com" local_ref
+    Order Deny,Allow
+    Deny from all
+    Allow from env=local_ref
+</Files>
+
+# Security headers
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block"

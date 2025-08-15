@@ -24,6 +24,3 @@ Your email configuration is secure! The `.env` file is already in `.gitignore` a
    ```
 
 4. **Restart your development server** after updating the `.env` file.
-
-## Deployment
-For production deployment, add these environment variables to your hosting platform (Vercel, Netlify, etc.).
