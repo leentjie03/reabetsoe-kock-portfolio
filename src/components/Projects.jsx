@@ -13,7 +13,7 @@ export default function Projects() {
       tech: ['React', 'JavaScript'],
       liveDemo: 'https://rea-portfolio.vercel.app/',
       sourceCode: 'https://github.com/leentjie03/reabetsoe-kock-portfolio.git',
-      image: 'public/images/portfolio.jpg'
+      image: '/images/portfolio.jpg'
     },
     {
       title: 'Black Brew Coffee Club',
@@ -24,7 +24,7 @@ export default function Projects() {
       ],
       tech: ['Kotlin', 'Android Studio', 'Firebase'],
       sourceCode: import.meta.env.VITE_MOBILE_APP_REPO_URL || "#",
-      image: 'public/images/coffee_app.png'
+      image: '/images/coffee_app.png'
     },
     {
       title: 'Calculator',
@@ -36,7 +36,7 @@ export default function Projects() {
       tech: ['JavaScript', 'HTML', 'CSS'],
       liveDemo: 'https://my-calculator-five-snowy.vercel.app/',
       sourceCode: import.meta.env.VITE_CALENDAR_REPO_URL || "#",
-      image: 'public/images/calculator.png'
+      image: '/images/calculator.png'
     },
     {
       title: 'Movie Search App',
@@ -48,7 +48,7 @@ export default function Projects() {
       tech: ['React', 'JavaScript', 'CSS'],
       liveDemo: 'https://movie-search-app-93ao.vercel.app/',
       sourceCode: import.meta.env.VITE_MOVIE_SEARCH_REPO_URL|| "#",
-      image: 'public/images/movie_search.jpg'
+      image: '/images/movie_search.jpg'
     }
   ];
 
