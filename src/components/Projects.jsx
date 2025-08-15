@@ -11,8 +11,8 @@ export default function Projects() {
         'Smooth scrolling and animations'
       ],
       tech: ['React', 'JavaScript'],
-      liveDemo: '#',
-      sourceCode: '#',
+      liveDemo: 'https://rea-portfolio.vercel.app/',
+      sourceCode: 'https://github.com/leentjie03/reabetsoe-kock-portfolio.git',
       image: 'public/images/portfolio.jpg'
     },
     {
@@ -23,7 +23,6 @@ export default function Projects() {
         'Secure sign-up and login functionality using Firebase Authentication, allowing users to create accounts, sign in, log out and delete their accounts.'
       ],
       tech: ['Kotlin', 'Android Studio', 'Firebase'],
-      liveDemo: '#',
       sourceCode: import.meta.env.VITE_MOBILE_APP_REPO_URL || "#",
       image: 'public/images/coffee_app.png'
     },
@@ -38,6 +37,18 @@ export default function Projects() {
       liveDemo: 'https://my-calculator-five-snowy.vercel.app/',
       sourceCode: import.meta.env.VITE_CALENDAR_REPO_URL || "#",
       image: 'public/images/calculator.png'
+    },
+    {
+      title: 'Movie Search App',
+      description: 'A web app to search for movies and view details.',
+      features: [
+        'Search for movies by title',
+        'View movie details, including ratings and descriptions'
+      ],
+      tech: ['React', 'JavaScript', 'CSS'],
+      liveDemo: 'https://movie-search-app-93ao.vercel.app/',
+      sourceCode: import.meta.env.VITE_MOVIE_SEARCH_REPO_URL|| "#",
+      image: 'public/images/movie_search.jpg'
     }
   ];
 
@@ -70,9 +81,11 @@ export default function Projects() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-buttons">
-                   {/* <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="btn live-demo-btn">
-                    Live Demo
-                  </a>  */}
+                  {project.liveDemo && (
+                    <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="btn live-demo-btn">
+                      Live Demo
+                    </a>
+                  )}
                   <a href={project.sourceCode} target="_blank" rel="noopener noreferrer" className="btn source-code-btn">
                     Source Code
                   </a>
