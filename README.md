@@ -6,12 +6,6 @@ Welcome to my personal portfolio website — a showcase of my work, skills, and 
 
 ---
 
-## 🧑‍💻 About Me
-
-Hi! I'm Rea, an aspiring Full-Stack Developer with a passion for building beautiful, functional, and accessible web applications. My portfolio highlights my favorite projects, skills, and background.
-
----
-
 
 
 ## 📬 Contact
