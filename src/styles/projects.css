@@ -13,8 +13,9 @@
   margin-bottom: 1rem;
   color: #fff !important;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
+  font-family:fantasy;
 }
 
 .projects-divider {
@@ -76,7 +77,7 @@
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
   color: #fff !important;
-  font-family: 'fantasy', cursive !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-description {
@@ -84,18 +85,21 @@
   margin-bottom: 1rem;
   font-size: 0.95rem;
   line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-features {
   margin: 1rem 0;
   padding-left: 1.2rem;
   flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .project-features li {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Tech badges */
@@ -104,6 +108,7 @@
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 1.5rem 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .tech-badge {
@@ -114,6 +119,7 @@
   font-size: 0.8rem;
   font-weight: 500;
   transition: background 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .tech-badge:hover {
@@ -129,12 +135,13 @@
   text-decoration: none;
   color: #fff;
   transition: background 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .live-demo-btn,
 .source-code-btn {
   background: #6343a3cc !important;
-    padding: 0.3rem 0.6rem !important;
+  padding: 0.3rem 0.6rem !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
 }
 

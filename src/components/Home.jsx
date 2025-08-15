@@ -35,7 +35,7 @@ export default function Home() {
       <div className="home-content">
         <div className="home-text">
           <h1>
-            Reabetsoe Kock <span role="img" aria-label="waving hand">👋</span>
+            Reabetsoe Kock 
           </h1>
           <h3>Software Engineer</h3>
           <p>

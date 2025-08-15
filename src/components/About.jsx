@@ -44,25 +44,21 @@ export default function About() {
             <div className="about-sidebar">
               <div className="checklist">
                 <h4>What I Do</h4>
-                <div className="checklist-item">
-                  <span>✓</span>
-                  <label>Frontend Development</label>
+                <div className="checklist-item">                 
+                  <label><span>✓</span> Frontend Development</label>
+                </div>
+                <div className="checklist-item"> 
+                  <label> <span>✓</span> Backend Development</label>
                 </div>
                 <div className="checklist-item">
-                  <span>✓</span>
-                  <label>Backend Development</label>
-                </div>
-                <div className="checklist-item">
-                  <span>✓</span>
-                  <label>Database Management</label>
+                  <label> <span>✓</span> Database Management</label>
                 </div>
               </div>
               
               <div className="interests">
                 <h4>When I'm Not Coding</h4>
                 <div className="interest-tags">
-                  <span className="tag">🎮 Gaming</span>
-                  <span className="tag">📚 Reading Tech Blogs</span>
+                  <span className="tag">📚 Reading </span>
                   <span className="tag">🏃‍♂️ Fitness</span>
                   <span className="tag">🎵 Music</span>
                   <span className="tag">💻 Learning New Technologies</span>

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/education.css';
-//import studentIllustration from '../assets/student-illustration.svg'; // replace with your image
 
 export default function Education() {
   return (
@@ -11,17 +10,10 @@ export default function Education() {
       <div className="education-container">
         {/* Illustration */}
         <div className="education-image">
-          {/* <img src={studentIllustration} alt="Student" /> */}
         </div>
 
         {/* Timeline */}
         <div className="education-timeline">
-          <h3 className="education-category">Formal Education</h3>
-          <p className="education-intro">
-            Over the years, I’ve completed academic programs that built my foundation in software engineering,
-            computer science, and modern web technologies.
-          </p>
-
           {/* Timeline items */}
           <div className="timeline">
             <div className="timeline-item">

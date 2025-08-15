@@ -57,12 +57,14 @@
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   color:white;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .contact-intro p {
   line-height: 1.6;
   margin-bottom: 1.5rem;
   color: #555;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .contact-intro a {
@@ -97,7 +99,7 @@
   gap: 0.5rem;
   margin-top: 1rem;
   color: white;
-  font-family: fantasy;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .email {
@@ -120,8 +122,7 @@
   background: none;
   border: none;
   color: white;
-  font-family: fantasy;
-  font-size: inherit;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   padding: 0;
   text-decoration: none;
@@ -165,6 +166,7 @@
   font-weight: bold;
   font-size: 0.9rem;
   color:#555 !important;
+  font-family:Arial, Helvetica, sans-serif;
 } 
 
 .form-group input,
@@ -173,7 +175,7 @@
   border: 1px solid #ddd !important;
   border-radius: 4px;
   font-size: 1rem;
-  font-family: inherit;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .form-group textarea {
@@ -182,7 +184,7 @@
 }
 
 button {
-    background: linear-gradient(135deg, #6343a3cc, #f856ddcc,#ec964fcc);
+  background: linear-gradient(135deg, #6343a3cc, #f856ddcc,#ec964fcc);
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -191,6 +193,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   width: 100%;
+  font-family:fantasy;
 }
 
 .status {
