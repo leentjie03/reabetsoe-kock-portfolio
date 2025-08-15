@@ -23,7 +23,7 @@
   margin-bottom: 0.5rem;
   color:white;
   font-weight: 300;
-  font-family: fantasy;
+  font-family: Impact, Arial Black, sans-serif;
 }
 
 .contact-divider {
@@ -41,7 +41,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 300;
-  font-family: fantasy;
+  font-family: Impact, Arial Black, sans-serif;
 }
 
 .contact-content {
@@ -193,7 +193,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   width: 100%;
-  font-family:fantasy;
+  font-family: Impact, Arial Black, sans-serif;
 }
 
 .status {
