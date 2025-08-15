@@ -1,3 +1,11 @@
+## 🖼 Screenshots
+Here’s a sneak peek at some of my work:
+<p align="center">
+  <img src="[C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg](https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg)" />
+</p>
+
+---
+
 # 🌐 My Developer Portfolio
 
 Welcome to my personal portfolio website — a showcase of my work, skills, and passion for development.
@@ -10,13 +18,7 @@ Welcome to my personal portfolio website — a showcase of my work, skills, and 
 
 ---
 
-## 🖼 Screenshots
-Here’s a sneak peek at some of my work:
-<p align="center">
-  <img src="C:\Users\ReabetsoeKock\OneDrive - Digital Solution Foundry (Pty) Ltd\Desktop\reactProjects\my-react-portfolio\reabetsoe-kock\public\images\portfolio.jpg" />
-</p>
 
----
 
 ## 📫 Get in Touch
 - 📧 Email: [youremail@example.com](mailto:ieleenkock@gmail.com.com)
