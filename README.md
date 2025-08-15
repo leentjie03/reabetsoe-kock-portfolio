@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website — a showcase of my work, skills, and passion for development.
 
-[Live Site](https://rea-portfolio.vercel.app/)) • [Contact Me](mailto:ieleenkock@gmail.com)
+[Live Site](https://rea-portfolio.vercel.app/) • [Contact Me](mailto:ieleenkock@gmail.com)
 
 ---
 
@@ -12,7 +12,6 @@ Hi! I'm Rea, an aspiring Full-Stack Developer with a passion for building beauti
 
 ---
 
----
 
 
 ## 📬 Contact
