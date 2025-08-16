@@ -43,7 +43,7 @@ export default function Home() {
           </p>
           <button
             className="say-hello-btn"
-            onClick={() => window.location = 'mailto:your.email@example.com'}
+            onClick={() => window.location = 'mailto:ieleenkock@gmail.com'}
           >
             Say Hello
           </button>
