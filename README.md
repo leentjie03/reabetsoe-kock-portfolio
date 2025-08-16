@@ -1,12 +1,48 @@
-# React + Vite
+## 🖼 Screenshots
+Here’s a sneak peek at some of my work:
+<p align="center">
+  <img src="https://github.com/leentjie03/reabetsoe-kock-portfolio/blob/main/public/images/portfolio.jpg" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🌐 My Developer Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to my personal portfolio website — a showcase of my work, skills, and passion for development.
 
-## Expanding the ESLint configuration
+[Live Site](https://rea-portfolio.vercel.app/) • [Contact Me](mailto:ieleenkock@gmail.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+**Frontend:**  React, JavaScript (ES6+),
+**Tools:** Git, VS Code, 
+
+---
+
+
+
+## 📫 Get in Touch
+- 📧 Email: [youremail@example.com](mailto:ieleenkock@gmail.com.com)
+- 💼 LinkedIn: [linkedin.com/in/reabetsoe-kock](https://linkedin.com/in/reabetsoe-kock)
+- 🐦 Discord: [@leetjie0028]([https://twitter.com/yourhandle](https://discord.com/users/1245530595631828992))
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
